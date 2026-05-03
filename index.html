@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard de Chamados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📊 Dashboard de Chamados</h1>
+
+  <div class="form">
+    <input type="text" id="titulo" placeholder="Título do chamado">
+    <select id="status">
+      <option>Aberto</option>
+      <option>Em andamento</option>
+      <option>Fechado</option>
+    </select>
+    <button onclick="adicionarChamado()">Adicionar</button>
+  </div>
+
+  <div class="cards">
+    <div class="card">Abertos: <span id="abertos">0</span></div>
+    <div class="card">Em andamento: <span id="andamento">0</span></div>
+    <div class="card">Fechados: <span id="fechados">0</span></div>
+  </div>
+
+  <ul id="lista"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

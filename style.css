@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.form {
+  margin: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+li {
+  background: #1e293b;
+  margin: 10px auto;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+}
